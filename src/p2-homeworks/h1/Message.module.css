@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine;
+}
+
+.message {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.content{
+    padding: 10px;
+    border-radius: 5px 5px 5px 0;
+    background-color: lightblue;
+}
+
+.cub {
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 20px, lightblue 0);
+}
+
+.text {
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+
+.time {
+    text-align: right;
+    color: cornflowerblue;
+    font-size: x-small;
+}
+
+.name {
+    color: firebrick;
+    font-size: x-small;
+}
